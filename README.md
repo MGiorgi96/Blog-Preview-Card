@@ -1,4 +1,4 @@
-# Frontend Mentor - [Blog preview card](https://mgiorgi96.github.io/Blog-Preview-Card/)
+# Frontend Mentor - [Blog Preview Card](https://mgiorgi96.github.io/Blog-Preview-Card/)
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). 
 
