@@ -1,0 +1,48 @@
+@use '../util/' as u;
+@use '../util/functions' as f;
+
+.blog-card-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.blog-card {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "image"
+    "content";
+    gap: var(--space-300);
+    width: u.rem(327);
+    box-sizing: border-box;
+    padding: var(--space-300);
+    @include u.breakpoint(medium) {         
+        width: u.rem(384);
+    }
+
+    &__content {
+        grid-area: content;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-300);
+    }
+    &__center {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-150);
+    }
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: var(--space-150);
+    }
+
+}
+
+
+

@@ -1,0 +1,27 @@
+@use '../util/functions' as f;
+
+:root {
+    --space-50: #{f.em(4)};
+    --space-75: #{f.em(6)};
+    --space-100: #{f.em(8)};
+    --space-125: #{f.em(10)};
+    --space-150: #{f.em(12)};
+    --space-175: #{f.em(14)};
+    --space-200: #{f.em(16)};
+    --space-225: #{f.em(18)};
+    --space-250: #{f.em(20)};
+    --space-275: #{f.em(22)};
+    --space-300: #{f.em(24)};
+    --space-325: #{f.em(26)};
+    --space-350: #{f.em(28)};
+    --space-375: #{f.em(30)};
+    --space-400: #{f.em(32)};
+    --space-425: #{f.em(34)};
+    --space-450: #{f.em(36)};
+    --space-475: #{f.em(38)};
+    --space-500: #{f.em(40)};
+    --space-525: #{f.em(42)};
+    --space-550: #{f.em(44)};
+}
+
+
